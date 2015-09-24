@@ -7,7 +7,7 @@ cat <<EOF
     ##################
 
 This will overwrite your local profiles and replace them with links to the
-files in this repository! The files to be replaced are:
+files in this repository! The files/folders to be replaced are:
 
 EOF
 ls files
@@ -19,12 +19,12 @@ echo "Installing the profile files..."
 
 for F in $(ls files);
 do
-    if [ -f "$HOME/.$F" ]
+    if [ -f "$HOME/.$F" -o -d "$HOME/.$F" ]
     then
         # Backup the old profiles
-        rm -f "$HOME/.$F.bak"
-        cat "$HOME/.$F" >"$HOME/.$F.bak"
-        rm "$HOME/.$F"
+        rm -rf "$HOME/.$F.bak"
+        cp -Lr "$HOME/.$F" "$HOME/.$F.bak"
+        rm -rf "$HOME/.$F"
     fi
     ln -s "$PWD/files/$F" "$HOME/.$F"
 done
