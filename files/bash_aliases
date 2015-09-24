@@ -15,3 +15,6 @@ alias gitd='git diff'
 alias gita='git add'
 alias gitc='git commit'
 alias gitp='git push'
+
+# date-order in gitk
+alias gitk='gitk --date-order'
