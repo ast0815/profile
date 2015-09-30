@@ -20,6 +20,9 @@ nnoremap ,, :iunmap ,<CR>
 " display line numbers
 set number
 
+" highlight search
+set hlsearch
+
 " maximize current buffer
 nnoremap <C-W># <C-W>_<C-W>\|
 
