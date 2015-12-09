@@ -38,3 +38,6 @@ let g:ConqueTerm_InsertOnEnter = 1
 " or in a new split buffer
 nnoremap <C-W>S :ConqueTermSplit bash<CR>
 nnoremap <C-W>V :ConqueTermVSplit bash<CR>
+
+" Enable mouse support
+set mouse=a
