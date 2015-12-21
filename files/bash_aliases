@@ -18,3 +18,9 @@ alias gitp='git push'
 
 # date-order in gitk
 alias gitk='gitk --date-order'
+
+# Use vimx if possible
+if which vimx >/dev/null 2>/dev/null
+then
+    alias vim='vimx'
+fi
