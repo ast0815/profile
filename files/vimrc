@@ -46,3 +46,7 @@ set mouse=a
 
 " Do not auto-fold everything
 set foldlevel=100
+
+" Markdown support
+" Use Latex math syntax highlighting
+let g:vim_markdown_math = 1
