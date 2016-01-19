@@ -10,9 +10,11 @@ nnoremap ,2 :set ts=2 sts=2 sw=2<CR>
 nnoremap ,4 :set ts=4 sts=4 sw=4<CR>
 nnoremap ,8 :set ts=8 sts=8 sw=8<CR>
 
-" Highlight trailing whitespaces
-:highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
-:match ExtraWhitespace /\s\+$/
+" Highlight trailing whitespaces4
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
+highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
+autocmd WinEnter * match ExtraWhitespace /\s\+$/
+match ExtraWhitespace /\s\+$/
 
 " Easy change of directory
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
