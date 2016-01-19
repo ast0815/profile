@@ -43,3 +43,6 @@ nnoremap <C-W>V :ConqueTermVSplit bash<CR>
 
 " Enable mouse support
 set mouse=a
+
+" Do not auto-fold everything
+set foldlevel=100
