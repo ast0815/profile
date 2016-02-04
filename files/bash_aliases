@@ -6,6 +6,8 @@ alias ssrwth='ssh -X koch@portal.physik.rwth-aachen.de'
 alias sshome='ssh -X koch@lx3b93.physik.rwth-aachen.de'
 alias ss08='ssh -X koch@lx3b08.physik.rwth-aachen.de'
 
+alias tunnelhome='ssh -n -N -L 12322:lx3b93:22 koch@tunnel.physik.rwth-aachen.de'
+
 # Pylab
 alias pylab='ipython --pylab'
 
