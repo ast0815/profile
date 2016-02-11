@@ -19,6 +19,10 @@ match ExtraWhitespace /\s\+$/
 " Easy change of directory
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
+" Make tab completion more like in the shell
+set wildmode=longest,list,full
+set wildmenu
+
 "  , -> .
 nnoremap ,. :inoremap , .<CR>
 nnoremap ,, :iunmap ,<CR>
