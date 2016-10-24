@@ -324,10 +324,8 @@ sympy-plots-for-*.tex/
 
 
 ### CVS ###
-/CVS/*
-*/CVS/*
+CVS/
 .cvsignore
-*/.cvsignore
 
 
 ### SVN ###
