@@ -20,6 +20,11 @@ match ExtraWhitespace /\s\+$/
 " Easy change of directory
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
+" Copy file path to clipboard
+nnoremap ,cp :let @+ = expand("%:p")<CR>
+" Copy file name to clipboard
+nnoremap ,cf :let @+ = expand("%:t")<CR>
+
 " Make tab completion more like in the shell
 set wildmode=longest,list,full
 set wildmenu
