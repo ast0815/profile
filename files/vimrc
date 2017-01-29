@@ -33,6 +33,9 @@ set wildmenu
 nnoremap ,. :inoremap , .<CR>
 nnoremap ,, :iunmap ,<CR>
 
+" Enable syntax highlighting
+syntax on
+
 " display line numbers
 set number
 
