@@ -20,6 +20,9 @@ match ExtraWhitespace /\s\+$/
 " Change FG color for highlighted spelling errors to black in terminal
 highlight SpellBad ctermfg=000
 
+" No error marking of _ and ^ in markdown tex formulas
+highlight link texOnlyMath Normal
+
 " Easy change of directory
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
