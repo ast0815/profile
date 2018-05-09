@@ -2,6 +2,7 @@
 alias l.='ls -d .*'
 
 # Easy ssh-ing
+alias ssh='ssh -X'
 alias ssrwth='ssh -X koch@portal.physik.rwth-aachen.de'
 alias sshome='ssh -X koch@lx3b93.physik.rwth-aachen.de'
 alias ss08='ssh -X koch@lx3b08.physik.rwth-aachen.de'
