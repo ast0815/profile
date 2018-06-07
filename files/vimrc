@@ -6,6 +6,9 @@ set expandtab
 autocmd FileType make setlocal noexpandtab "Makefiles NEED tabs
 set autoindent
 
+" Do not use two spaces after periods when formating text
+:set nojoinspaces
+
 " Easy change of tab lengths
 nnoremap ,2 :set ts=2 sts=2 sw=2<CR>
 nnoremap ,4 :set ts=4 sts=4 sw=4<CR>
