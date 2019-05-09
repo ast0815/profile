@@ -72,3 +72,6 @@ set foldlevel=100
 " Markdown support
 " Use Latex math syntax highlighting
 let g:vim_markdown_math = 1
+
+" Disable annoying alarm bells
+set noeb vb t_vb=
