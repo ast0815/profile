@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook playbooks/*.yml
+ansible-playbook -K playbooks/*.yml
