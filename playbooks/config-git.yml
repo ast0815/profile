@@ -5,3 +5,7 @@
     - copy:
         src: gitignore.txt
         dest: ~/.gitignore
+    - git_config:
+        name: core.excludesfile
+        scope: global
+        value: ~/.gitignore
