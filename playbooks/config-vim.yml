@@ -1,5 +1,11 @@
 ---
 - hosts: localhost
+  become: yes
+  tasks:
+    - apt:
+        name: vim
+
+- hosts: localhost
   become: no
   tasks:
     - copy:
