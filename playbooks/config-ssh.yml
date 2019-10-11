@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: no
+  tasks:
+    - copy:
+        src: ssh-config.txt
+        dest: ~/.ssh/config

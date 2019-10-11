@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: no
+  tasks:
+    - copy:
+        src: gitignore.txt
+        dest: ~/.gitignore

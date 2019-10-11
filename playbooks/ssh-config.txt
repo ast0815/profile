@@ -1,0 +1,12 @@
+Host voyager
+    Hostname voyager.pp.rl.ac.uk
+    User kdf77245
+
+Host ral
+    Hostname heplnx111
+    User kdf77245
+    ProxyJump voyager
+
+Host lkast
+    Hostname lkast.net
+    User lukas

@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: no
+  tasks:
+    - copy:
+        src: vimrc.txt
+        dest: ~/.vimrc

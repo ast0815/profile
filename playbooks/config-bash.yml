@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  become: no
+  tasks:
+    - copy:
+        src: bash_aliases.txt
+        dest: ~/.bash_aliases
+    - copy:
+        src: bash_profile.txt
+        dest: ~/.bash_profile
+    - copy:
+        src: bashrc.txt
+        dest: ~/.bashrc
+    - copy:
+        src: profile.txt
+        dest: ~/.profile
