@@ -12,5 +12,5 @@ Host lkast
     User lukas
 
 Host oxford
-    Hostname pplxint10.physics.ox.ac.uk
+    Hostname pplxint11.physics.ox.ac.uk
     User koch
