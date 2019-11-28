@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    - apt:
+        name: git
+    - apt:
+        name: gitk

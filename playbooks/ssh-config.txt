@@ -10,3 +10,7 @@ Host ral
 Host lkast
     Hostname lkast.net
     User lukas
+
+Host oxford
+    Hostname pplxint10.physics.ox.ac.uk
+    User koch

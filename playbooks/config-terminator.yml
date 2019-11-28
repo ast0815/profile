@@ -1,13 +1,5 @@
 ---
 - hosts: localhost
-  become: yes
-  tasks:
-    - apt:
-        name: fonts-inconsolata
-    - apt:
-        name: terminator
-
-- hosts: localhost
   become: no
   tasks:
     - copy:
