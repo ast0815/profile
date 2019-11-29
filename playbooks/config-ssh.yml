@@ -1,7 +1,10 @@
 ---
-- hosts: localhost
+- name: Configure SSH client
+  hosts: localhost
   become: no
   tasks:
-    - copy:
+    - name: Copy SSH config
+      copy:
         src: ssh-config.txt
         dest: ~/.ssh/config
+        mode: 0600
