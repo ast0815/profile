@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook -K playbooks/install*.yml
+ansible-playbook -K $@ playbooks/install*.yml

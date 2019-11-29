@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ansible-playbook playbooks/config*.yml
+ansible-playbook $@ playbooks/config*.yml
