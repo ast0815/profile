@@ -1,11 +1,19 @@
 ---
-- hosts: localhost
+- name: Configure Git
+  hosts: localhost
   become: no
   tasks:
-    - copy:
+    - name: Copy global gitignore
+      copy:
         src: gitignore.txt
         dest: ~/.gitignore
-    - git_config:
+    - name: Enable global gitignore
+      git_config:
         name: core.excludesfile
         scope: global
         value: ~/.gitignore
+    - name: Enable auto colours
+      git_config:
+        name: color.ui
+        scope: global
+        value: auto
