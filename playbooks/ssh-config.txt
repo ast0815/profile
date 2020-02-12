@@ -11,9 +11,13 @@ Host lkast
     Hostname lkast.net
     User lukas
 
-Host oxford
-    Hostname pplxint11.physics.ox.ac.uk
-    User koch
+host oxford10 oxford
+    hostname pplxint10.physics.ox.ac.uk
+    user koch
+
+host oxford11
+    hostname pplxint11.physics.ox.ac.uk
+    user koch
 
 Host t2k-login
     Hostname t2k-login.j-parc.jp
