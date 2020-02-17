@@ -9,6 +9,7 @@ Host ral
     Hostname heplnx111
     User kdf77245
     ProxyJump voyager
+    ServerAliveInterval 240
 
 Host lkast
     Hostname lkast.net
