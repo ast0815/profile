@@ -5,11 +5,16 @@ Host voyager
     Hostname voyager.pp.rl.ac.uk
     User kdf77245
 
-Host ral
-    Hostname heplnx111
+Host ral*
     User kdf77245
     ProxyJump voyager
     ServerAliveInterval 240
+
+Host ral111
+    Hostname heplnx111
+
+Host ral ral8
+    Hostname mercury008
 
 Host lkast
     Hostname lkast.net
