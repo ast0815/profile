@@ -1,6 +1,3 @@
-Host *
-    ForwardX11 yes
-
 Host voyager
     Hostname voyager.pp.rl.ac.uk
     User kdf77245
@@ -31,3 +28,9 @@ host oxford11
 Host t2k-login
     Hostname t2k-login.j-parc.jp
     User lkoch
+
+Host github.com
+    ForwardX11 no
+
+Host *
+    ForwardX11 yes
