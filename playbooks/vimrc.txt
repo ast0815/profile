@@ -1,5 +1,5 @@
-" Spaces instead of tabs
-set tabstop=4
+" Use 4 spaces instead of tabs, but tabs are still 8 characters long
+set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -10,8 +10,8 @@ set autoindent
 :set nojoinspaces
 
 " Easy change of tab lengths
-nnoremap ,2 :set ts=2 sts=2 sw=2<CR>
-nnoremap ,4 :set ts=4 sts=4 sw=4<CR>
+nnoremap ,2 :set ts=8 sts=2 sw=2<CR>
+nnoremap ,4 :set ts=8 sts=4 sw=4<CR>
 nnoremap ,8 :set ts=8 sts=8 sw=8<CR>
 
 " Highlight trailing whitespaces
