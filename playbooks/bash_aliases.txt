@@ -15,6 +15,7 @@ alias gitd='git diff'
 alias gita='git add'
 alias gitc='git commit'
 alias gitp='git push'
+alias gitr='git remote update -p'
 alias gitl='git log --oneline --graph --date-order --decorate'
 
 # date-order in gitk
