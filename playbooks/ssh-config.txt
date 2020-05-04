@@ -29,6 +29,11 @@ Host t2k-login
     Hostname t2k-login.j-parc.jp
     User lkoch
 
+Host daq-expert
+    Hostname daq-expert2.nd280.t2k
+    User t2kdaq
+    ProxyJump t2k-login
+
 Host github.com
     ForwardX11 no
 
