@@ -37,5 +37,15 @@ Host daq-expert
 Host github.com
     ForwardX11 no
 
+Host ha
+    Hostname homeassistant
+    User root
+    ForwardX11 no
+
+Host home
+    Hostname lkast.duckdns.org
+    User root
+    ForwardX11 no
+
 Host *
     ForwardX11 yes
