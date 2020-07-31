@@ -49,3 +49,4 @@ Host home
 
 Host *
     ForwardX11 yes
+    ForwardAgent yes
