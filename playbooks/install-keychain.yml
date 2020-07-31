@@ -1,0 +1,7 @@
+---
+- name: Install Keychain
+  hosts: localhost
+  become: yes
+  tasks:
+    - apt:
+        name: keychain
