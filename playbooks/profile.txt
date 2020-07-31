@@ -24,3 +24,6 @@ fi
 if [ -f "$HOME/.profile.local" ] ; then
     . "$HOME/.profile.local"
 fi
+
+# Start SSH Agent with keychain, if it is installed
+eval $(keychain --eval --quiet 2>/dev/null) || true
