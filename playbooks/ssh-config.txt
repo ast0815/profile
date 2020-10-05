@@ -13,10 +13,6 @@ Host ral111
 Host ral ral8
     Hostname mercury008
 
-Host lkast
-    Hostname lkast.net
-    User lukas
-
 host oxford10 oxford
     hostname pplxint10.physics.ox.ac.uk
     user koch
