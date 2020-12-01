@@ -1,0 +1,31 @@
+# "new tableau10"-inspired colour cycle
+#axes.prop_cycle: cycler('color', ['1f77b4', 'F28E2B', 'E15759', '76B7B2', '59A14E', 'EDC949', 'B07AA2', 'FF9DA7', '9C755F', 'BAB0AC'])
+
+# From http://mkweb.bcgsc.ca/colorblind/palettes.mhtml
+#color  1-main 9F0162
+#color  1-alt  006A5E
+#color  2-main 009F81
+#color  2-alt  ED0D88
+#color  3-main FF5AAF
+#color  3-alt  00BDA9
+#color  4-main 00FCCF
+#color  4-alt  FFC4D4
+#color  5-main 8400CD
+#color  5-alt  0058CC
+#color  6-main 008DF9
+#color  6-alt  D208FB
+#color  7-main 00C2F9
+#color  7-alt  FF66FD
+#color  8-main FFB2FD
+#color  8-alt  00EFF9
+#color  9-main A40122
+#color  9-alt  156D03
+#color 10-main E20134
+#color 10-alt  009719
+#color 11-main FF6E3A
+#color 11-alt  00C61B
+#color 12-main FFC33B
+#color 12-alt  00FB1D
+
+# Inspired by above
+axes.prop_cycle: cycler('color', ['048efa', 'ffc33b', '9f0162', '999ea9', 'ed143a', '79ebd2', '8408ca', 'ff6e3a', 'fdb5fc', '009f81', 'a40122', 'ff5aaf'])

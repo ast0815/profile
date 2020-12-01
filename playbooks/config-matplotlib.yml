@@ -1,0 +1,9 @@
+---
+- name: Configure Matplotlib
+  hosts: localhost
+  become: no
+  tasks:
+    - name: Copy matplotlibrc
+      copy:
+        src: matplotlibrc
+        dest: ~/.config/matplotlib/matplotlibrc
