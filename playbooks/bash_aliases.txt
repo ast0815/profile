@@ -20,4 +20,8 @@ alias gitl='git log --oneline --graph --date-order --decorate'
 
 # date-order in gitk
 alias gitk='gitk --date-order'
+
+# Update environment in tmux
 alias tmux-update-display='export $(tmux show-environment DISPLAY)'
+alias tmux-update-ssh='export $(tmux show-environment SSH_AUTH_SOCK)'
+alias tmux-update-env='tmux-update-display; tmux-update-ssh'
